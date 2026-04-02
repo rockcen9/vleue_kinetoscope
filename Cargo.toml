@@ -25,15 +25,15 @@ thiserror = "1.0"
 smallvec = "1.15"
 log = "0.4"
 crossbeam-channel = "0.5"
-bevy_ecs = { rev = "1b3b01e94003cbcf652f842057ebab547b400b0e", git = "https://github.com/bevyengine/bevy", default-features = false }
-bevy_app = { rev = "1b3b01e94003cbcf652f842057ebab547b400b0e", git = "https://github.com/bevyengine/bevy", default-features = false }
-bevy_asset = { rev = "1b3b01e94003cbcf652f842057ebab547b400b0e", git = "https://github.com/bevyengine/bevy", default-features = false }
-bevy_image = { rev = "1b3b01e94003cbcf652f842057ebab547b400b0e", git = "https://github.com/bevyengine/bevy", default-features = false }
-bevy_reflect = { rev = "1b3b01e94003cbcf652f842057ebab547b400b0e", git = "https://github.com/bevyengine/bevy", default-features = false }
-bevy_tasks = { rev = "1b3b01e94003cbcf652f842057ebab547b400b0e", git = "https://github.com/bevyengine/bevy", default-features = false, optional = true }
-bevy_time = { rev = "1b3b01e94003cbcf652f842057ebab547b400b0e", git = "https://github.com/bevyengine/bevy", default-features = false }
-bevy_sprite = { rev = "1b3b01e94003cbcf652f842057ebab547b400b0e", git = "https://github.com/bevyengine/bevy", default-features = false }
+bevy_ecs = { rev = "d06aa47744dfa378f2e8a31cd7ff2d59c9afe4b9", git = "https://github.com/bevyengine/bevy", default-features = false }
+bevy_app = { rev = "d06aa47744dfa378f2e8a31cd7ff2d59c9afe4b9", git = "https://github.com/bevyengine/bevy", default-features = false }
+bevy_asset = { rev = "d06aa47744dfa378f2e8a31cd7ff2d59c9afe4b9", git = "https://github.com/bevyengine/bevy", default-features = false }
+bevy_image = { rev = "d06aa47744dfa378f2e8a31cd7ff2d59c9afe4b9", git = "https://github.com/bevyengine/bevy", default-features = false }
+bevy_reflect = { rev = "d06aa47744dfa378f2e8a31cd7ff2d59c9afe4b9", git = "https://github.com/bevyengine/bevy", default-features = false }
+bevy_tasks = { rev = "d06aa47744dfa378f2e8a31cd7ff2d59c9afe4b9", git = "https://github.com/bevyengine/bevy", default-features = false, optional = true }
+bevy_time = { rev = "d06aa47744dfa378f2e8a31cd7ff2d59c9afe4b9", git = "https://github.com/bevyengine/bevy", default-features = false }
+bevy_sprite = { rev = "d06aa47744dfa378f2e8a31cd7ff2d59c9afe4b9", git = "https://github.com/bevyengine/bevy", default-features = false }
 
 
 [dev-dependencies]
-bevy = { rev = "1b3b01e94003cbcf652f842057ebab547b400b0e", git = "https://github.com/bevyengine/bevy" }
+bevy = { rev = "d06aa47744dfa378f2e8a31cd7ff2d59c9afe4b9", git = "https://github.com/bevyengine/bevy" }
